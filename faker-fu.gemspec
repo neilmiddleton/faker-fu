@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.date = %q{2010-09-24}
   s.description = %q{A port of Perl's Data::Faker library that generates fake data with some additional generators.}
   s.email = %q{neilmiddleton @nospam@ gmail.com}
-  s.extra_rdoc_files = ["README.txt", "lib/extensions/array.rb", "lib/extensions/object.rb", "lib/faker.rb", "lib/faker/address.rb", "lib/faker/company.rb", "lib/faker/internet.rb", "lib/faker/lorem.rb", "lib/faker/person.rb", "lib/faker/phone_number.rb", "lib/faker/version.rb", "tasks/deployment.rake", "tasks/environment.rake", "tasks/website.rake"]
-  s.files = ["License.txt", "Manifest", "README.txt", "Rakefile", "lib/extensions/array.rb", "lib/extensions/object.rb", "lib/faker.rb", "lib/faker/address.rb", "lib/faker/company.rb", "lib/faker/internet.rb", "lib/faker/lorem.rb", "lib/faker/person.rb", "lib/faker/phone_number.rb", "lib/faker/version.rb", "setup.rb", "tasks/deployment.rake", "tasks/environment.rake", "tasks/website.rake", "test/test_faker.rb", "test/test_faker_internet.rb", "test/test_faker_person.rb", "test/test_helper.rb", "faker.gemspec"]
+  s.extra_rdoc_files = ["README.rdoc", "lib/extensions/array.rb", "lib/extensions/object.rb", "lib/faker.rb", "lib/faker/address.rb", "lib/faker/company.rb", "lib/faker/internet.rb", "lib/faker/lorem.rb", "lib/faker/person.rb", "lib/faker/phone_number.rb", "lib/faker/version.rb", "tasks/deployment.rake", "tasks/environment.rake", "tasks/website.rake"]
+  s.files = ["License.txt", "Manifest", "README.rdoc", "Rakefile", "lib/extensions/array.rb", "lib/extensions/object.rb", "lib/faker.rb", "lib/faker/address.rb", "lib/faker/company.rb", "lib/faker/internet.rb", "lib/faker/lorem.rb", "lib/faker/person.rb", "lib/faker/phone_number.rb", "lib/faker/version.rb", "setup.rb", "tasks/deployment.rake", "tasks/environment.rake", "tasks/website.rake", "test/test_faker.rb", "test/test_faker_internet.rb", "test/test_faker_person.rb", "test/test_helper.rb", "faker-fu.gemspec"]
   s.homepage = %q{http://github.com/neilmiddleton/faker-fu}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Faker", "--main", "README.txt"]
   s.require_paths = ["lib"]
