@@ -1,7 +1,8 @@
 License.txt
 Manifest
-README.txt
+README.rdoc
 Rakefile
+faker-fu.gemspec
 lib/extensions/array.rb
 lib/extensions/object.rb
 lib/faker.rb
