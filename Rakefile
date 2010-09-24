@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('faker-fu', '0.4.0') do |p|
+Echoe.new('faker-fu', '0.4.1') do |p|
   p.description    = "A port of Perl's Data::Faker library that generates fake data with some additional generators"
   p.url            = "http://github.com/neilmiddleton/Faker"
   p.author         = "Neil Middleton"
