@@ -27,6 +27,15 @@ module Faker
         day = rand(31) + 1
         Time.local(year, month, day)
       end
+      
+      def national_insurance_number
+        ni = []
+        ni << ('A,B,C,E,G,H,J,K,L,M,N,O,P,R,S,T,V,W,X,Y').split(',')[rand(20)]
+        ni << ('A,B,C,E,G,H,J,K,L,M,N,P,R,S,T,V,W,X,Y').split(',')[rand(19)]
+        ni << (0...6).map{ 1 + rand(9)}.join
+        ni << ('A,B,C,D').split(',')[rand(4)]
+        ni.join
+      end
     end
     
     Formats = [
