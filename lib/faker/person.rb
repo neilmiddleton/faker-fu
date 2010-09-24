@@ -1,5 +1,5 @@
 module Faker
-  class Name
+  class Person
     class << self
       def name
         Formats.rand.call.join(' ')
@@ -19,6 +19,13 @@ module Faker
 
       def suffix
         %w(Jr. Sr. I II III IV V MD DDS PhD DVM).rand
+      end
+      
+      def date_of_birth
+        year = (Time.now - 20.years).year - rand(85) - 1
+        month = rand(12) + 1
+        day = rand(31) + 1
+        Time.local(year, month, day)
       end
     end
     

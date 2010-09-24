@@ -1,9 +1,9 @@
 require File.dirname(__FILE__) + '/test_helper.rb'
 
-class TestFakerName < Test::Unit::TestCase
+class TestFakerPerson < Test::Unit::TestCase
 
   def setup
-    @tester = Faker::Name
+    @tester = Faker::Person
   end
   
   def test_name
