@@ -9,4 +9,4 @@ Echoe.new('faker-fu', '0.4.1') do |p|
   p.email          = "neilmiddleton @nospam@ gmail.com"
   p.ignore_pattern = ["tmp/*", "script/*"]
   p.development_dependencies = []
-end
+end 

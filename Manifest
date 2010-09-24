@@ -1,4 +1,5 @@
 License.txt
+Manifest
 README.rdoc
 Rakefile
 faker-fu.gemspec
@@ -13,11 +14,7 @@ lib/faker/person.rb
 lib/faker/phone_number.rb
 lib/faker/version.rb
 setup.rb
-tasks/deployment.rake
-tasks/environment.rake
-tasks/website.rake
 test/test_faker.rb
 test/test_faker_internet.rb
 test/test_faker_person.rb
 test/test_helper.rb
-Manifest
